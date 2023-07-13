@@ -4,3 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+#notes-page {
+  display: block;
+}
+
+.save-note {
+  display: none;
+}
