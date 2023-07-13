@@ -29,3 +29,9 @@ body {
   margin-top: 13px;
   font-size: 3rem;
 }
+.list-container .card {
+  height: calc(100vh - 70px);
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
