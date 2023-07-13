@@ -1,4 +1,4 @@
-#Note Taker
+##Note Taker
 The Note Taker is a web application that allows users to create and manage notes. It provides a simple and intuitive interface for users to enter note titles and corresponding text. The application also allows users to save and delete notes, as well as view and edit existing notes.
 
 #Features
