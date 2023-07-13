@@ -181,3 +181,8 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+// Function to show an element
+const show = (elem) => {
+  elem.style.display = 'inline';
+};
