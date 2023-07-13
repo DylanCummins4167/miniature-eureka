@@ -46,3 +46,12 @@ body {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+.list-item-title {
+  display: inline-block;
+  width: 75%;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
