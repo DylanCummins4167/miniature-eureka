@@ -209,3 +209,6 @@ const handleNoteSave = () => {
     renderActiveNote();
   });
 };
+// Function to handle rendering the active note
+const renderActiveNote = () => {
+  hide(saveNoteBtn);
