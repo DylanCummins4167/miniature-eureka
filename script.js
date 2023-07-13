@@ -227,3 +227,7 @@ const renderActiveNote = () => {
 // Event listener for the "Get Started" button on the landing page
 const getStartedBtn = document.querySelector('.btn.btn-primary.btn-lg.mt-4');
 getStartedBtn.addEventListener('click', togglePage);
+
+// Event listener for the "Save" button in the navigation
+const saveNoteBtn = document.querySelector('.btn.btn-primary.save-note');
+saveNoteBtn.addEventListener('click', handleNoteSave);
