@@ -198,3 +198,14 @@ const togglePage = () => {
   landingPage.style.display = 'none';
   notesPage.style.display = 'block';
 };
+// Function to handle saving a note
+const handleNoteSave = () => {
+  const newNote = {
+    title: noteTitle.value,
+    text: noteText.value,
+  };
+  saveNote(newNote).then(() => {
+    getAndRenderNotes();
+    renderActiveNote();
+  });
+};
