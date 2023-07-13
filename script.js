@@ -190,3 +190,11 @@ const show = (elem) => {
 const hide = (elem) => {
   elem.style.display = 'none';
 };
+// Function to toggle between landing page and notes page
+const togglePage = () => {
+  const landingPage = document.getElementById('landing-page');
+  const notesPage = document.getElementById('notes-page');
+
+  landingPage.style.display = 'none';
+  notesPage.style.display = 'block';
+};
