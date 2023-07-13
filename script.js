@@ -186,3 +186,7 @@ getAndRenderNotes();
 const show = (elem) => {
   elem.style.display = 'inline';
 };
+// Function to hide an element
+const hide = (elem) => {
+  elem.style.display = 'none';
+};
