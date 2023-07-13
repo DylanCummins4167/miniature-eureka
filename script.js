@@ -224,3 +224,6 @@ const renderActiveNote = () => {
     noteText.value = '';
   }
 };
+// Event listener for the "Get Started" button on the landing page
+const getStartedBtn = document.querySelector('.btn.btn-primary.btn-lg.mt-4');
+getStartedBtn.addEventListener('click', togglePage);
